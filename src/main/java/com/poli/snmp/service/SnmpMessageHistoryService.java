@@ -41,7 +41,7 @@ public class SnmpMessageHistoryService implements ISnmpMessageHistoryService {
 	public List<SnmpMessageHistory> getAllMessagesHistoryDesc() {
 		return this.snmpMessageDao.getAllMessagesHistoryDesc();
 	}
-
+	
 	@Override
 	public String processSnmpMessage(SnmpMessage snmpMessage) throws NumberFormatException, UnknownHostException, IOException {
 
@@ -167,7 +167,7 @@ public class SnmpMessageHistoryService implements ISnmpMessageHistoryService {
 		// Fecha o DatagramSocket
 		ds.close();
 
-		return result;
+		return result.replaceAll("[^\\p{ASCII}]|'|,", "");
 	}
 
 	public static byte[] hexStringToByteArray(String s) {

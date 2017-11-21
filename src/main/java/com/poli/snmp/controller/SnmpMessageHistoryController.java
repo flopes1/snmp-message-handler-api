@@ -1,5 +1,7 @@
 package com.poli.snmp.controller;
 
+import java.io.IOException;
+import java.net.UnknownHostException;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -56,14 +58,17 @@ public class SnmpMessageHistoryController
 
     @RequestMapping(method = RequestMethod.POST)
     @ResponseStatus(value = HttpStatus.CREATED)
-    public void addSnmpMessage(@RequestBody SnmpMessage message)
+    public void addSnmpMessage(@RequestBody SnmpMessage message) throws NumberFormatException, UnknownHostException, IOException
     {
         log.debug("POST /snmp/message ({}) called", message.getObjectId());
         
         SnmpMessageHistory history = new SnmpMessageHistory();
         
-        // TODO criar o historico e inserir na base com o resultado do socket
-        // Criar o metodo do socket na classe SnmpMessageService e chamar aqui
+        String response = this.snmpServiceService.processSnmpMessage(message);
+        
+        history.setObjectId(message.getObjectId());
+        history.setTargetIP(message.getTargetIp());
+        history.setResponse(response);
         
         this.snmpServiceService.addSnmpMessageHistory(history);
     }

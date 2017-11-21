@@ -1,0 +1,301 @@
+2017-11-07 23:57:29,133  INFO  [org.hibernate.Version] [localhost-startStop-1] HHH000412: Hibernate Core {5.2.10.Final}
+2017-11-07 23:57:29,180  INFO  [hibernate.cfg.Environment] [localhost-startStop-1] HHH000206: hibernate.properties not found
+2017-11-07 23:57:29,702  INFO  [annotations.common.Version] [localhost-startStop-1] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-07 23:57:30,944  INFO  [hibernate.dialect.Dialect] [localhost-startStop-1] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-11-07 23:57:31,921  WARN  [hibernate.mapping.RootClass] [localhost-startStop-1] HHH000038: Composite-id class does not override equals(): com.poli.snmp.model.ObjectId
+2017-11-07 23:57:31,921  WARN  [hibernate.mapping.RootClass] [localhost-startStop-1] HHH000039: Composite-id class does not override hashCode(): com.poli.snmp.model.ObjectId
+2017-11-07 23:57:32,298  INFO  [internal.util.Version] [localhost-startStop-1] HV000001: Hibernate Validator 5.1.3.Final
+2017-11-07 23:57:33,260  INFO  [snmp.dao.ObjectIdDao] [localhost-startStop-1] Initializing generic repository access
+2017-11-07 23:57:33,261  INFO  [snmp.dao.ObjectIdDao] [localhost-startStop-1] Generic repository initialized with entity :com.poli.snmp.model.ObjectId
+2017-11-07 23:57:33,273  INFO  [snmp.dao.SnmpMessageHistoryDao] [localhost-startStop-1] Initializing generic repository access
+2017-11-07 23:57:33,274  INFO  [snmp.dao.SnmpMessageHistoryDao] [localhost-startStop-1] Generic repository initialized with entity :com.poli.snmp.model.SnmpMessageHistory
+2017-11-07 23:57:36,759  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-07 23:57:36,760  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting current session of data base
+2017-11-07 23:57:36,761  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting current session successful
+2017-11-07 23:57:36,842  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-07 23:57:37,065  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-2] SQL Error: 1048, SQLState: 23000
+2017-11-07 23:57:37,066  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-2] Column 'smg_obj_object_id' cannot be null
+2017-11-07 23:57:37,068  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-2] HHH000010: On release of batch it still contained JDBC statements
+2017-11-07 23:57:37,072  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-2] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-07 23:57:52,362  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-07 23:57:52,362  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting current session of data base
+2017-11-07 23:57:52,362  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting current session successful
+2017-11-07 23:57:52,362  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-07 23:57:52,416  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-4] SQL Error: 1048, SQLState: 23000
+2017-11-07 23:57:52,416  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-4] Column 'smg_obj_object_id' cannot be null
+2017-11-07 23:57:52,417  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-4] HHH000010: On release of batch it still contained JDBC statements
+2017-11-07 23:57:52,417  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-4] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-07 23:57:58,278  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-6] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-07 23:57:58,278  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-6] Getting current session of data base
+2017-11-07 23:57:58,278  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-6] Getting current session successful
+2017-11-07 23:57:58,279  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-6] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-07 23:57:58,281  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-6] SQL Error: 1048, SQLState: 23000
+2017-11-07 23:57:58,282  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-6] Column 'smg_obj_object_id' cannot be null
+2017-11-07 23:57:58,282  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-6] HHH000010: On release of batch it still contained JDBC statements
+2017-11-07 23:57:58,282  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-6] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-07 23:59:53,021  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-8] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-07 23:59:53,021  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-8] Getting current session of data base
+2017-11-07 23:59:53,021  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-8] Getting current session successful
+2017-11-07 23:59:53,021  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-8] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-07 23:59:53,024  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-8] SQL Error: 1048, SQLState: 23000
+2017-11-07 23:59:53,024  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-8] Column 'smg_obj_object_id' cannot be null
+2017-11-07 23:59:53,024  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-8] HHH000010: On release of batch it still contained JDBC statements
+2017-11-07 23:59:53,025  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-8] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-08 00:03:54,329  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-10] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-08 00:03:54,329  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-10] Getting current session of data base
+2017-11-08 00:03:54,329  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-10] Getting current session successful
+2017-11-08 00:03:54,330  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-10] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-08 00:03:54,334  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-10] SQL Error: 1048, SQLState: 23000
+2017-11-08 00:03:54,334  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-10] Column 'smg_obj_object_id' cannot be null
+2017-11-08 00:03:54,334  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-10] HHH000010: On release of batch it still contained JDBC statements
+2017-11-08 00:03:54,336  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-10] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-08 00:04:24,162  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-08 00:04:24,162  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-08 00:04:24,162  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-08 00:04:24,163  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-08 00:04:24,166  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-1] SQL Error: 1048, SQLState: 23000
+2017-11-08 00:04:24,166  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-1] Column 'smg_obj_object_id' cannot be null
+2017-11-08 00:04:24,166  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-1] HHH000010: On release of batch it still contained JDBC statements
+2017-11-08 00:04:24,166  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-1] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-08 00:07:41,897  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-3] GET /snmp/message called
+2017-11-08 00:07:41,915  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-08 00:07:41,915  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session of data base
+2017-11-08 00:07:41,915  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session successful
+2017-11-08 00:07:41,992  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session of data base
+2017-11-08 00:07:41,992  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session successful
+2017-11-08 00:07:42,071  INFO  [hql.internal.QueryTranslatorFactoryInitiator] [http-bio-8077-exec-3] HHH000397: Using ASTQueryTranslatorFactory
+2017-11-08 00:07:43,084  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
+2017-11-08 00:07:50,182  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-3] GET /snmp/message called
+2017-11-08 00:07:50,194  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-08 00:07:50,194  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session of data base
+2017-11-08 00:07:50,194  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session successful
+2017-11-08 00:07:50,194  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session of data base
+2017-11-08 00:07:50,194  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session successful
+2017-11-08 00:07:50,196  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
+2017-11-20 20:52:18,777  INFO  [org.hibernate.Version] [localhost-startStop-1] HHH000412: Hibernate Core {5.2.10.Final}
+2017-11-20 20:52:18,810  INFO  [hibernate.cfg.Environment] [localhost-startStop-1] HHH000206: hibernate.properties not found
+2017-11-20 20:52:19,040  INFO  [annotations.common.Version] [localhost-startStop-1] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-20 20:52:20,412  INFO  [hibernate.dialect.Dialect] [localhost-startStop-1] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-11-20 20:52:21,133  WARN  [hibernate.mapping.RootClass] [localhost-startStop-1] HHH000038: Composite-id class does not override equals(): com.poli.snmp.model.ObjectId
+2017-11-20 20:52:21,134  WARN  [hibernate.mapping.RootClass] [localhost-startStop-1] HHH000039: Composite-id class does not override hashCode(): com.poli.snmp.model.ObjectId
+2017-11-20 20:52:21,679  INFO  [internal.util.Version] [localhost-startStop-1] HV000001: Hibernate Validator 5.1.3.Final
+2017-11-20 20:52:22,866  INFO  [snmp.dao.ObjectIdDao] [localhost-startStop-1] Initializing generic repository access
+2017-11-20 20:52:22,866  INFO  [snmp.dao.ObjectIdDao] [localhost-startStop-1] Generic repository initialized with entity :com.poli.snmp.model.ObjectId
+2017-11-20 20:52:22,917  INFO  [snmp.dao.SnmpMessageHistoryDao] [localhost-startStop-1] Initializing generic repository access
+2017-11-20 20:52:22,917  INFO  [snmp.dao.SnmpMessageHistoryDao] [localhost-startStop-1] Generic repository initialized with entity :com.poli.snmp.model.SnmpMessageHistory
+2017-11-20 20:53:23,589  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-20 20:53:23,589  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting current session of data base
+2017-11-20 20:53:23,589  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting current session successful
+2017-11-20 20:53:23,621  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 20:53:23,762  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-2] SQL Error: 1048, SQLState: 23000
+2017-11-20 20:53:23,762  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-2] Column 'smg_obj_object_id' cannot be null
+2017-11-20 20:53:23,764  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-2] HHH000010: On release of batch it still contained JDBC statements
+2017-11-20 20:53:23,767  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-2] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-20 20:59:53,444  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-20 20:59:53,446  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session of data base
+2017-11-20 20:59:53,446  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session successful
+2017-11-20 20:59:53,446  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 20:59:53,451  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-3] SQL Error: 1048, SQLState: 23000
+2017-11-20 20:59:53,451  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-3] Column 'smg_obj_object_id' cannot be null
+2017-11-20 20:59:53,452  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-3] HHH000010: On release of batch it still contained JDBC statements
+2017-11-20 20:59:53,453  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-3] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-20 21:01:39,854  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-20 21:01:39,854  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting current session of data base
+2017-11-20 21:01:39,854  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting current session successful
+2017-11-20 21:01:39,854  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:02:33,184  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-5] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-20 21:02:33,185  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-5] Getting current session of data base
+2017-11-20 21:02:33,185  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-5] Getting current session successful
+2017-11-20 21:02:33,186  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-5] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:02:33,189  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-5] SQL Error: 1062, SQLState: 23000
+2017-11-20 21:02:33,190  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-5] Duplicate entry '0' for key 'PRIMARY'
+2017-11-20 21:02:33,191  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-5] HHH000010: On release of batch it still contained JDBC statements
+2017-11-20 21:02:33,191  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-5] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-20 21:03:54,030  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-7] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-20 21:03:54,030  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-7] Getting current session of data base
+2017-11-20 21:03:54,030  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-7] Getting current session successful
+2017-11-20 21:03:54,031  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-7] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:21:54,114  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-10] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: null
+Target IP: null
+Response: null instance
+2017-11-20 21:21:54,114  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-10] Getting current session of data base
+2017-11-20 21:21:54,115  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-10] Getting current session successful
+2017-11-20 21:21:54,119  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-10] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:21:54,134  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-10] SQL Error: 1048, SQLState: 23000
+2017-11-20 21:21:54,134  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-10] Column 'smg_obj_object_id' cannot be null
+2017-11-20 21:21:54,134  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-10] HHH000010: On release of batch it still contained JDBC statements
+2017-11-20 21:21:54,136  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-10] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-20 21:34:50,240  INFO  [org.hibernate.Version] [localhost-startStop-1] HHH000412: Hibernate Core {5.2.10.Final}
+2017-11-20 21:34:50,257  INFO  [hibernate.cfg.Environment] [localhost-startStop-1] HHH000206: hibernate.properties not found
+2017-11-20 21:34:51,037  INFO  [annotations.common.Version] [localhost-startStop-1] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-20 21:34:53,593  INFO  [hibernate.dialect.Dialect] [localhost-startStop-1] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-11-20 21:34:55,444  WARN  [hibernate.mapping.RootClass] [localhost-startStop-1] HHH000038: Composite-id class does not override equals(): com.poli.snmp.model.ObjectId
+2017-11-20 21:34:55,444  WARN  [hibernate.mapping.RootClass] [localhost-startStop-1] HHH000039: Composite-id class does not override hashCode(): com.poli.snmp.model.ObjectId
+2017-11-20 21:34:56,381  INFO  [internal.util.Version] [localhost-startStop-1] HV000001: Hibernate Validator 5.1.3.Final
+2017-11-20 21:34:59,282  INFO  [snmp.dao.ObjectIdDao] [localhost-startStop-1] Initializing generic repository access
+2017-11-20 21:34:59,284  INFO  [snmp.dao.ObjectIdDao] [localhost-startStop-1] Generic repository initialized with entity :com.poli.snmp.model.ObjectId
+2017-11-20 21:34:59,318  INFO  [snmp.dao.SnmpMessageHistoryDao] [localhost-startStop-1] Initializing generic repository access
+2017-11-20 21:34:59,318  INFO  [snmp.dao.SnmpMessageHistoryDao] [localhost-startStop-1] Generic repository initialized with entity :com.poli.snmp.model.SnmpMessageHistory
+2017-11-20 21:35:33,879  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: 1.3.6.1.2.1.1.1.0
+Target IP: localhost
+Response:  ?€Hardware: Intel64 Family 6 Model 58 Stepping 9 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 9600 Multiprocessor Free)                                         instance
+2017-11-20 21:35:33,880  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting current session of data base
+2017-11-20 21:35:33,880  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting current session successful
+2017-11-20 21:35:33,995  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:35:34,181  WARN  [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-2] SQL Error: 1406, SQLState: 22001
+2017-11-20 21:35:34,181  ERROR [jdbc.spi.SqlExceptionHelper] [http-bio-8077-exec-2] Data truncation: Data too long for column 'smg_msg_message_response' at row 1
+2017-11-20 21:35:34,185  INFO  [batch.internal.AbstractBatchImpl] [http-bio-8077-exec-2] HHH000010: On release of batch it still contained JDBC statements
+2017-11-20 21:35:34,188  ERROR [hibernate.internal.ExceptionMapperStandardImpl] [http-bio-8077-exec-2] HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+2017-11-20 21:38:44,876  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: 1.3.6.1.2.1.1.1.0
+Target IP: localhost
+Response:  ?€Hardware: Intel64 Family 6 Model 58 Stepping 9 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 9600 Multiprocessor Free)                                         instance
+2017-11-20 21:38:44,878  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session of data base
+2017-11-20 21:38:44,879  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Getting current session successful
+2017-11-20 21:38:44,880  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-3] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:39:13,167  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-4] GET /snmp/message called
+2017-11-20 21:39:13,196  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-20 21:39:13,196  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting current session of data base
+2017-11-20 21:39:13,196  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting current session successful
+2017-11-20 21:39:13,278  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting current session of data base
+2017-11-20 21:39:13,278  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting current session successful
+2017-11-20 21:39:13,407  INFO  [hql.internal.QueryTranslatorFactoryInitiator] [http-bio-8077-exec-4] HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 21:39:14,560  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
+2017-11-20 21:50:48,894  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-7] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: 1.3.6.1.2.1.1.5.0
+Target IP: localhost
+Response: PC-FERNANDO                                         instance
+2017-11-20 21:50:48,895  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-7] Getting current session of data base
+2017-11-20 21:50:48,895  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-7] Getting current session successful
+2017-11-20 21:50:48,896  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-7] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:51:48,369  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-8] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: 1.3.6.1.2.1.1.6.0
+Target IP: localhost
+Response:                                          instance
+2017-11-20 21:51:48,370  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-8] Getting current session of data base
+2017-11-20 21:51:48,370  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-8] Getting current session successful
+2017-11-20 21:51:48,371  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-8] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:51:49,899  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-9] GET /snmp/message called
+2017-11-20 21:51:49,919  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-9] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-20 21:51:49,919  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-9] Getting current session of data base
+2017-11-20 21:51:49,919  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-9] Getting current session successful
+2017-11-20 21:51:49,919  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-9] Getting current session of data base
+2017-11-20 21:51:49,919  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-9] Getting current session successful
+2017-11-20 21:51:49,926  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-9] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
+2017-11-20 21:53:04,717  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-1] GET /snmp/message called
+2017-11-20 21:53:04,744  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-20 21:53:04,744  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:53:04,745  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:53:04,745  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:53:04,745  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:53:04,749  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
+2017-11-20 21:53:35,644  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: 1.3.6.1.2.1.2.2.1.2.2
+Target IP: localhost
+Response: Microsoft Kernel Debug Network Adapter                                            instance
+2017-11-20 21:53:35,645  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:53:35,645  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:53:35,646  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:53:37,714  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-1] GET /snmp/message called
+2017-11-20 21:53:37,737  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-20 21:53:37,737  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:53:37,737  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:53:37,737  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:53:37,737  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:53:37,741  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
+2017-11-20 21:54:12,056  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: 1.3.6.1.2.1.2.2.1.2.3
+Target IP: localhost
+Response: Realtek PCIe FE Family Controller                                            instance
+2017-11-20 21:54:12,058  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:54:12,060  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:54:12,070  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:54:13,349  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-1] GET /snmp/message called
+2017-11-20 21:54:13,369  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-20 21:54:13,369  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:54:13,369  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:54:13,369  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:54:13,369  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:54:13,387  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
+2017-11-20 21:54:29,662  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-1] GET /snmp/message called
+2017-11-20 21:54:29,676  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-20 21:54:29,676  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:54:29,677  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:54:29,677  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:54:29,677  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:54:29,689  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
+2017-11-20 21:57:06,815  INFO  [org.hibernate.Version] [localhost-startStop-1] HHH000412: Hibernate Core {5.2.10.Final}
+2017-11-20 21:57:06,852  INFO  [hibernate.cfg.Environment] [localhost-startStop-1] HHH000206: hibernate.properties not found
+2017-11-20 21:57:07,522  INFO  [annotations.common.Version] [localhost-startStop-1] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-20 21:57:09,879  INFO  [hibernate.dialect.Dialect] [localhost-startStop-1] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-11-20 21:57:11,641  WARN  [hibernate.mapping.RootClass] [localhost-startStop-1] HHH000038: Composite-id class does not override equals(): com.poli.snmp.model.ObjectId
+2017-11-20 21:57:11,642  WARN  [hibernate.mapping.RootClass] [localhost-startStop-1] HHH000039: Composite-id class does not override hashCode(): com.poli.snmp.model.ObjectId
+2017-11-20 21:57:12,342  INFO  [internal.util.Version] [localhost-startStop-1] HV000001: Hibernate Validator 5.1.3.Final
+2017-11-20 21:57:14,491  INFO  [snmp.dao.ObjectIdDao] [localhost-startStop-1] Initializing generic repository access
+2017-11-20 21:57:14,491  INFO  [snmp.dao.ObjectIdDao] [localhost-startStop-1] Generic repository initialized with entity :com.poli.snmp.model.ObjectId
+2017-11-20 21:57:14,528  INFO  [snmp.dao.SnmpMessageHistoryDao] [localhost-startStop-1] Initializing generic repository access
+2017-11-20 21:57:14,528  INFO  [snmp.dao.SnmpMessageHistoryDao] [localhost-startStop-1] Generic repository initialized with entity :com.poli.snmp.model.SnmpMessageHistory
+2017-11-20 21:58:57,409  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-1] GET /snmp/message called
+2017-11-20 21:58:58,249  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-20 21:58:58,251  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:58:58,252  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:58:58,445  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session of data base
+2017-11-20 21:58:58,448  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting current session successful
+2017-11-20 21:58:58,688  INFO  [hql.internal.QueryTranslatorFactoryInitiator] [http-bio-8077-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 21:59:00,321  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-1] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
+2017-11-20 21:59:04,298  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-2] GET /snmp/message called
+2017-11-20 21:59:04,316  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-20 21:59:04,316  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting current session of data base
+2017-11-20 21:59:04,316  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting current session successful
+2017-11-20 21:59:04,317  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting current session of data base
+2017-11-20 21:59:04,317  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting current session successful
+2017-11-20 21:59:04,321  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-2] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
+2017-11-20 21:59:55,893  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Persisting com.poli.snmp.model.SnmpMessageHistory: ID: 0
+Object Id: 1.3.6.1.2.1.1.1.0
+Target IP: localhost
+Response:  Hardware: Intel64 Family 6 Model 58 Stepping 9 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 9600 Multiprocessor Free)                                         instance
+2017-11-20 21:59:55,894  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting current session of data base
+2017-11-20 21:59:55,894  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Getting current session successful
+2017-11-20 21:59:55,935  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-4] Persisting com.poli.snmp.model.SnmpMessageHistory successful 
+2017-11-20 21:59:57,533  INFO  [snmp.controller.SnmpMessageHistoryController] [http-bio-8077-exec-5] GET /snmp/message called
+2017-11-20 21:59:57,548  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-5] Getting all entities from com.poli.snmp.model.SnmpMessageHistory in order by: 
+2017-11-20 21:59:57,548  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-5] Getting current session of data base
+2017-11-20 21:59:57,549  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-5] Getting current session successful
+2017-11-20 21:59:57,549  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-5] Getting current session of data base
+2017-11-20 21:59:57,549  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-5] Getting current session successful
+2017-11-20 21:59:57,558  INFO  [snmp.model.SnmpMessageHistory] [http-bio-8077-exec-5] Getting all entities com.poli.snmp.model.SnmpMessageHistory successful
